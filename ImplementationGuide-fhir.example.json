@@ -9,7 +9,7 @@
   "version" : "0.1.0",
   "name" : "NyTimelosingIG",
   "status" : "draft",
-  "date" : "2023-07-17T00:54:17+02:00",
+  "date" : "2023-07-23T17:00:47+02:00",
   "publisher" : "Example Publisher",
   "contact" : [{
     "name" : "Example Publisher",
@@ -61,7 +61,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "ci-build"
+        "valueString" : "draft"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -329,7 +329,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "ci-build"
+        "valueString" : "draft"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -578,13 +578,134 @@
     "resource" : [{
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Patient"
+        "valueString" : "Appointment"
       }],
       "reference" : {
-        "reference" : "Patient/e70f0ba2-44d8-4f14-9c3a-ff4c6ead7473"
+        "reference" : "Appointment/d6c523ec-b520-4221-a8d6-c1c58911ce7a"
       },
-      "name" : "e70f0ba2-44d8-4f14-9c3a-ff4c6ead7473",
-      "exampleBoolean" : true
+      "name" : "AppointmentExample",
+      "description" : "Discussion on the results of your recent MRI",
+      "exampleCanonical" : "http://example.org/StructureDefinition/no-basis-Appointment"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/hn-basis-scedule"
+      },
+      "name" : "HN basis profile for schedule",
+      "description" : "Profile used for Sceduler in HN. Based on FHIR Schedule (R4)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/hn-basis-slot"
+      },
+      "name" : "HN basis profile for slot",
+      "description" : "Profile used for Slot in HN. Based on FHIR Slot (R4)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/hn-appointment-flag-code-cs"
+      },
+      "name" : "hn-appointment-flag-code-cs",
+      "description" : "Code system used for Flag codes in nytimeløsing",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/hn-appointment-flag-code-vs"
+      },
+      "name" : "hn-appointment-flag-code-vs",
+      "description" : "Value set for Flag codes in nytimeløsing",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/hn-basis-AppointmentResponse"
+      },
+      "name" : "hn-basis-AppointmentResponse",
+      "description" : "Basisprofil for AppointmentResponse used in 'ny timeløsning' https://helsenorge.atlassian.net/wiki/spaces/HELSENORGE/pages/2052685825/Draft+-+Timenotifikasjon.+Ny+nasjonal+timel+sning",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/hn-basis-changeConferenceType"
+      },
+      "name" : "hn-basis-changeConferenceType",
+      "description" : "The basis extension expressing that Patient askes to use anouther type of conference",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/hn-basis-Flag"
+      },
+      "name" : "hn-basis-Flag",
+      "description" : "Basisprofil for Flag used in 'ny timeløsning' https://helsenorge.atlassian.net/wiki/spaces/HELSENORGE/pages/2052685825/Draft+-+Timenotifikasjon.+Ny+nasjonal+timel+sning",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/hn-basis-flagStatusPeriod"
+      },
+      "name" : "hn-basis-flagStatusPeriod",
+      "description" : "The basis extension for status period in flag. Creating valid period for flag status",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/no-basis-virtual-service-type-vs"
+      },
+      "name" : "No Basis VirtualServiceType Value Set",
+      "description" : "Example codes for possible virtual service connection types.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/no-basis-Appointment"
+      },
+      "name" : "no-basis-Appointment",
+      "description" : "Base profile for Norwegian Appointment information. Defined by HL7 Norway. This profile identifies a set of minimum expectations for an Appointment resource when creating, searching and retrieving compositions by defining which coding system(s) can be present when using this profile. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -604,10 +725,46 @@
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/no-basis-group"
+      },
+      "name" : "no-basis-group",
+      "description" : "The appointment is a group session.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/no-basis-partof"
+      },
+      "name" : "no-basis-partof",
+      "description" : "This basis extension mirrors the Encounter.partOF-attribute. The partOf-attribute enables booking of a set of related appointments with a set of sub-appointments being linked to the main appointment in the same way as encounters are being linked. A larger appointment of which this particular appointment is a component or step.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/no-basis-shortnotice"
       },
       "name" : "no-basis-shortnotice",
       "description" : "The basis extension defines a boolean concept that expresses the possibility to meet on short notice if the there are available appointment slots.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/no-basis-virtual-service"
+      },
+      "name" : "no-basis-Virtual-Service",
+      "description" : "The VirtualService is based on VirtualServiceDetail structure from R5 and defines details of a virtual communication capability, such as a web conference call.",
       "exampleBoolean" : false
     },
     {
@@ -621,6 +778,17 @@
       "name" : "PatientAppointmentResponseExample",
       "description" : "Example of Patient response to an appointment using no-basis profile. The profile is identical to the basis profile axept there is a extension that can be used for patient to signal if the patient can come on short notice to an appointment. The example is similar to http://hl7.org/fhir/R4/appointmentresponse-example.json.html with adition for the extension.",
       "exampleCanonical" : "http://example.org/StructureDefinition/no-basis-AppointmentResponse"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Patient"
+      }],
+      "reference" : {
+        "reference" : "Patient/e70f0ba2-44d8-4f14-9c3a-ff4c6ead7473"
+      },
+      "name" : "PatientExample",
+      "exampleBoolean" : true
     }],
     "page" : {
       "extension" : [{

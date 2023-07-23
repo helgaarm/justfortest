@@ -49,7 +49,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold"></span>
             <br/>
-            <span style="display:inline-block;">0.1.0 - ci-build
+            <span style="display:inline-block;">0.1.0 - draft
 
 
             </span>
@@ -132,7 +132,13 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <a href="#2">Structures: Extension Definitions</a>
       </li>
       <li>
-         <a href="#3">Example: Example Instances</a>
+         <a href="#3">Terminology: Value Sets</a>
+      </li>
+      <li>
+         <a href="#4">Terminology: Code Systems</a>
+      </li>
+      <li>
+         <a href="#5">Example: Example Instances</a>
       </li>
    </ul>
 </div>
@@ -149,6 +155,51 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <table class="grid">
          <col style="width:20%"/>
          <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-hn-basis-scedule.html"
+                     title="StructureDefinition/hn-basis-scedule">HN basis profile for schedule</a>
+               </td>
+               <td>
+<p>Profile used for Sceduler in HN. Based on FHIR Schedule (R4)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-hn-basis-slot.html"
+                     title="StructureDefinition/hn-basis-slot">HN basis profile for slot</a>
+               </td>
+               <td>
+<p>Profile used for Slot in HN. Based on FHIR Slot (R4)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-hn-basis-AppointmentResponse.html"
+                     title="StructureDefinition/hn-basis-AppointmentResponse">hn-basis-AppointmentResponse</a>
+               </td>
+               <td>
+<p>Basisprofil for AppointmentResponse used in ‘ny timeløsning’ https://helsenorge.atlassian.net/wiki/spaces/HELSENORGE/pages/2052685825/Draft+-+Timenotifikasjon.+Ny+nasjonal+timel+sning</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-hn-basis-Flag.html"
+                     title="StructureDefinition/hn-basis-Flag">hn-basis-Flag</a>
+               </td>
+               <td>
+<p>Basisprofil for Flag used in ‘ny timeløsning’ https://helsenorge.atlassian.net/wiki/spaces/HELSENORGE/pages/2052685825/Draft+-+Timenotifikasjon.+Ny+nasjonal+timel+sning</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-no-basis-Appointment.html"
+                     title="StructureDefinition/no-basis-Appointment">no-basis-Appointment</a>
+               </td>
+               <td>
+<p>Base profile for Norwegian Appointment information. Defined by HL7 Norway. This profile identifies a set of minimum expectations for an Appointment resource when creating, searching and retrieving compositions by defining which coding system(s) can be present when using this profile. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.</p>
+</td>
+            </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="StructureDefinition-no-basis-AppointmentResponse.html"
@@ -172,6 +223,42 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <tbody>
             <tr>
                <td style="column-width:30%">
+                  <a href="StructureDefinition-hn-basis-changeConferenceType.html"
+                     title="StructureDefinition/hn-basis-changeConferenceType">hn-basis-changeConferenceType</a>
+               </td>
+               <td>
+<p>The basis extension expressing that Patient askes to use anouther type of conference</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-hn-basis-flagStatusPeriod.html"
+                     title="StructureDefinition/hn-basis-flagStatusPeriod">hn-basis-flagStatusPeriod</a>
+               </td>
+               <td>
+<p>The basis extension for status period in flag. Creating valid period for flag status</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-no-basis-group.html"
+                     title="StructureDefinition/no-basis-group">no-basis-group</a>
+               </td>
+               <td>
+<p>The appointment is a group session.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-no-basis-partof.html"
+                     title="StructureDefinition/no-basis-partof">no-basis-partof</a>
+               </td>
+               <td>
+<p>This basis extension mirrors the Encounter.partOF-attribute. The partOf-attribute enables booking of a set of related appointments with a set of sub-appointments being linked to the main appointment in the same way as encounters are being linked. A larger appointment of which this particular appointment is a component or step.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="StructureDefinition-no-basis-shortnotice.html"
                      title="StructureDefinition/no-basis-shortnotice">no-basis-shortnotice</a>
                </td>
@@ -179,10 +266,70 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p>The basis extension defines a boolean concept that expresses the possibility to meet on short notice if the there are available appointment slots.</p>
 </td>
             </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-no-basis-virtual-service.html"
+                     title="StructureDefinition/no-basis-virtual-service">no-basis-Virtual-Service</a>
+               </td>
+               <td>
+<p>The VirtualService is based on VirtualServiceDetail structure from R5 and defines details of a virtual communication capability, such as a web conference call.</p>
+</td>
+            </tr>
          </tbody>
       </table>
    </p>
    <a name="3"> </a>
+   <h3>Terminology: Value Sets </h3>
+   <p>
+    <p>These define sets of codes used by systems conforming to this implementation guide.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-hn-appointment-flag-code-vs.html"
+                     title="ValueSet/hn-appointment-flag-code-vs">hn-appointment-flag-code-vs</a>
+               </td>
+               <td>
+<p>Value set for Flag codes in nytimeløsing</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-no-basis-virtual-service-type-vs.html"
+                     title="ValueSet/no-basis-virtual-service-type-vs">No Basis VirtualServiceType Value Set</a>
+               </td>
+               <td>
+<p>Example codes for possible virtual service connection types.</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="4"> </a>
+   <h3>Terminology: Code Systems </h3>
+   <p>
+    <p>These define new code systems used by systems conforming to this implementation guide.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-hn-appointment-flag-code-cs.html"
+                     title="CodeSystem/hn-appointment-flag-code-cs">hn-appointment-flag-code-cs</a>
+               </td>
+               <td>
+<p>Code system used for Flag codes in nytimeløsing</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="5"> </a>
    <h3>Example: Example Instances </h3>
    <p>
     <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.</p>
@@ -193,11 +340,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <tbody>
             <tr>
                <td style="column-width:30%">
-                  <a href="Patient-e70f0ba2-44d8-4f14-9c3a-ff4c6ead7473.html"
-                     title="Patient/e70f0ba2-44d8-4f14-9c3a-ff4c6ead7473">e70f0ba2-44d8-4f14-9c3a-ff4c6ead7473</a>
+                  <a href="Appointment-d6c523ec-b520-4221-a8d6-c1c58911ce7a.html"
+                     title="Appointment/d6c523ec-b520-4221-a8d6-c1c58911ce7a">AppointmentExample</a>
                </td>
                <td>
-
+<p>Discussion on the results of your recent MRI</p>
 </td>
             </tr>
             <tr>
@@ -207,6 +354,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </td>
                <td>
 <p>Example of Patient response to an appointment using no-basis profile. The profile is identical to the basis profile axept there is a extension that can be used for patient to signal if the patient can come on short notice to an appointment. The example is similar to http://hl7.org/fhir/R4/appointmentresponse-example.json.html with adition for the extension.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Patient-e70f0ba2-44d8-4f14-9c3a-ff4c6ead7473.html"
+                     title="Patient/e70f0ba2-44d8-4f14-9c3a-ff4c6ead7473">PatientExample</a>
+               </td>
+               <td>
+
 </td>
             </tr>
          </tbody>
@@ -236,7 +392,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://example.org/example-publisher">Example Publisher</a>.  Package fhir.example#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jul 17, 2023 00:54+0200">2023-07-17</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://example.org/example-publisher">Example Publisher</a>.  Package fhir.example#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Jul 23, 2023 17:00+0200">2023-07-23</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

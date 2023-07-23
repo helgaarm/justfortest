@@ -1,81 +1,173 @@
 {
-  "date" : "Mon, 17 Jul, 2023 00:54:17 +0200",
+  "date" : "Sun, 23 Jul, 2023 17:00:47 +0200",
   "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
   "files" : [
     {
       "name" : "\\fsh-generated\\resources\\ImplementationGuide-fhir.example.json",
-      "size" : 2877,
+      "size" : 7690,
       "processes" : [
         {
           "activity" : "load",
-          "start" : 27,
-          "length" : 64
+          "start" : 43,
+          "length" : 539
         },
         {
           "activity" : "checkR4R4B",
-          "start" : 28,
-          "length" : 4
+          "start" : 54,
+          "length" : 2
         },
         {
           "activity" : "generateNarratives",
-          "start" : 28,
-          "length" : 102
+          "start" : 54,
+          "length" : 587
         },
         {
           "activity" : "validate",
-          "start" : 29,
-          "length" : 466
+          "start" : 70,
+          "length" : 757
         },
         {
           "activity" : "generate1",
-          "start" : 29,
-          "length" : 284
+          "start" : 71,
+          "length" : 239
         },
         {
           "activity" : "generate2",
-          "start" : 32,
-          "length" : 98
+          "start" : 79,
+          "length" : 176
         },
         {
-          "activity" : "generateExampleZip",
-          "start" : 54,
-          "length" : 1
+          "activity" : "generateValidationPack",
+          "start" : 122,
+          "length" : 3
         },
         {
-          "activity" : "generateExampleZip",
-          "start" : 54,
+          "activity" : "scanExamplesForR5",
+          "start" : 134,
           "length" : 1
         }
       ]
     },
     {
-      "name" : "fsh-generated/resources/AppointmentResponse-PatientAppointmentResponseExample.json",
-      "size" : 631,
+      "name" : "fsh-generated/resources/Appointment-d6c523ec-b520-4221-a8d6-c1c58911ce7a.json",
+      "size" : 947,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 27,
-          "length" : 4
+          "start" : 39,
+          "length" : 8
         },
         {
           "activity" : "generateNarratives",
-          "start" : 28,
-          "length" : 16
+          "start" : 55,
+          "length" : 79
         },
         {
           "activity" : "validate",
-          "start" : 29,
-          "length" : 20
+          "start" : 70,
+          "length" : 26
         },
         {
           "activity" : "generate1",
-          "start" : 30,
+          "start" : 71,
           "length" : 31
         },
         {
           "activity" : "generate2",
-          "start" : 32,
+          "start" : 79,
+          "length" : 44
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/AppointmentResponse-PatientAppointmentResponseExample.json",
+      "size" : 654,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 39,
+          "length" : 8
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 55,
+          "length" : 11
+        },
+        {
+          "activity" : "validate",
+          "start" : 70,
+          "length" : 20
+        },
+        {
+          "activity" : "generate1",
+          "start" : 71,
+          "length" : 24
+        },
+        {
+          "activity" : "generate2",
+          "start" : 79,
+          "length" : 24
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 122,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-hn-appointment-flag-code-cs.json",
+      "size" : 1132,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 39,
+          "length" : 8
+        },
+        {
+          "activity" : "loadDepInfo",
+          "start" : 41,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 41,
+          "length" : 16
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 55,
+          "length" : 9
+        },
+        {
+          "activity" : "validate",
+          "start" : 65,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 65,
+          "length" : 64
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 70,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 71,
           "length" : 31
+        },
+        {
+          "activity" : "generate2",
+          "start" : 79,
+          "length" : 2223
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 122,
+          "length" : 1
         }
       ]
     },
@@ -84,75 +176,549 @@
       "size" : 209,
       "processes" : [
         {
+          "activity" : "loadResources",
+          "start" : 39,
+          "length" : 7
+        },
+        {
           "activity" : "generateNarratives",
-          "start" : 28,
-          "length" : 16
+          "start" : 55,
+          "length" : 12
         },
         {
           "activity" : "validate",
-          "start" : 29,
-          "length" : 5
+          "start" : 70,
+          "length" : 6
         },
         {
           "activity" : "generate1",
-          "start" : 30,
-          "length" : 16
+          "start" : 71,
+          "length" : 15
         },
         {
           "activity" : "generate2",
-          "start" : 32,
-          "length" : 16
+          "start" : 81,
+          "length" : 32
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-hn-basis-AppointmentResponse.json",
+      "size" : 6216,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 39,
+          "length" : 370
+        },
+        {
+          "activity" : "load",
+          "start" : 41,
+          "length" : 384
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 44,
+          "length" : 2763
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 54,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 55,
+          "length" : 2183
+        },
+        {
+          "activity" : "validate",
+          "start" : 66,
+          "length" : 1103
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 70,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 71,
+          "length" : 1067
+        },
+        {
+          "activity" : "generate2",
+          "start" : 81,
+          "length" : 2681
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 104,
+          "length" : 1
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 122,
+          "length" : 11
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 134,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-hn-basis-changeConferenceType.json",
+      "size" : 1763,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 39,
+          "length" : 90
+        },
+        {
+          "activity" : "load",
+          "start" : 42,
+          "length" : 97
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 47,
+          "length" : 212
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 57,
+          "length" : 224
+        },
+        {
+          "activity" : "validate",
+          "start" : 67,
+          "length" : 82
+        },
+        {
+          "activity" : "generate1",
+          "start" : 72,
+          "length" : 138
+        },
+        {
+          "activity" : "generate2",
+          "start" : 84,
+          "length" : 393
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 122,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-hn-basis-Flag.json",
+      "size" : 3311,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 39,
+          "length" : 200
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 41,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 42,
+          "length" : 194
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 47,
+          "length" : 1226
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 57,
+          "length" : 1232
+        },
+        {
+          "activity" : "validate",
+          "start" : 67,
+          "length" : 520
+        },
+        {
+          "activity" : "generate1",
+          "start" : 73,
+          "length" : 651
+        },
+        {
+          "activity" : "generate2",
+          "start" : 85,
+          "length" : 1190
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 123,
+          "length" : 6
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-hn-basis-flagStatusPeriod.json",
+      "size" : 1568,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 40,
+          "length" : 88
+        },
+        {
+          "activity" : "load",
+          "start" : 42,
+          "length" : 86
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 48,
+          "length" : 215
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 58,
+          "length" : 206
+        },
+        {
+          "activity" : "validate",
+          "start" : 67,
+          "length" : 64
+        },
+        {
+          "activity" : "generate1",
+          "start" : 73,
+          "length" : 127
+        },
+        {
+          "activity" : "generate2",
+          "start" : 86,
+          "length" : 263
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 123,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-hn-basis-scedule.json",
+      "size" : 3435,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 40,
+          "length" : 165
+        },
+        {
+          "activity" : "load",
+          "start" : 42,
+          "length" : 164
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 48,
+          "length" : 1037
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 59,
+          "length" : 1052
+        },
+        {
+          "activity" : "validate",
+          "start" : 67,
+          "length" : 422
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 70,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 73,
+          "length" : 570
+        },
+        {
+          "activity" : "generate2",
+          "start" : 86,
+          "length" : 990
         },
         {
           "activity" : "generateExampleZip",
-          "start" : 54,
+          "start" : 122,
+          "length" : 1
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 123,
+          "length" : 5
+        },
+        {
+          "activity" : "scanProfilesForR5",
+          "start" : 134,
+          "length" : 1
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 134,
           "length" : 4
         }
       ]
     },
     {
-      "name" : "fsh-generated/resources/StructureDefinition-no-basis-AppointmentResponse.json",
-      "size" : 2463,
+      "name" : "fsh-generated/resources/StructureDefinition-hn-basis-slot.json",
+      "size" : 4415,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 27,
-          "length" : 15
+          "start" : 40,
+          "length" : 230
         },
         {
           "activity" : "load",
-          "start" : 27,
-          "length" : 35
+          "start" : 42,
+          "length" : 234
         },
         {
           "activity" : "generateSnapshots",
-          "start" : 27,
-          "length" : 167
+          "start" : 49,
+          "length" : 1427
         },
         {
           "activity" : "generateNarratives",
-          "start" : 28,
-          "length" : 95
+          "start" : 60,
+          "length" : 1464
         },
         {
           "activity" : "validate",
-          "start" : 28,
-          "length" : 755
+          "start" : 68,
+          "length" : 567
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 70,
+          "length" : 1
         },
         {
           "activity" : "generate1",
-          "start" : 30,
-          "length" : 349
+          "start" : 74,
+          "length" : 748
         },
         {
           "activity" : "generate2",
-          "start" : 32,
-          "length" : 1667
+          "start" : 87,
+          "length" : 1130
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 54,
-          "length" : 6
+          "start" : 123,
+          "length" : 7
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 134,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-no-basis-Appointment.json",
+      "size" : 5059,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 40,
+          "length" : 181
+        },
+        {
+          "activity" : "load",
+          "start" : 42,
+          "length" : 175
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 51,
+          "length" : 1480
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 61,
+          "length" : 1407
+        },
+        {
+          "activity" : "validate",
+          "start" : 68,
+          "length" : 568
+        },
+        {
+          "activity" : "generate1",
+          "start" : 75,
+          "length" : 724
+        },
+        {
+          "activity" : "generate2",
+          "start" : 88,
+          "length" : 1287
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 123,
+          "length" : 7
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-no-basis-AppointmentResponse.json",
+      "size" : 3037,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 40,
+          "length" : 96
+        },
+        {
+          "activity" : "load",
+          "start" : 42,
+          "length" : 89
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 63,
+          "length" : 627
+        },
+        {
+          "activity" : "validate",
+          "start" : 69,
+          "length" : 238
+        },
+        {
+          "activity" : "generate1",
+          "start" : 75,
+          "length" : 362
+        },
+        {
+          "activity" : "generate2",
+          "start" : 89,
+          "length" : 645
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 123,
+          "length" : 4
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-no-basis-group.json",
+      "size" : 1432,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 40,
+          "length" : 85
+        },
+        {
+          "activity" : "load",
+          "start" : 43,
+          "length" : 85
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 52,
+          "length" : 215
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 63,
+          "length" : 206
+        },
+        {
+          "activity" : "validate",
+          "start" : 69,
+          "length" : 57
+        },
+        {
+          "activity" : "generate1",
+          "start" : 76,
+          "length" : 120
+        },
+        {
+          "activity" : "generate2",
+          "start" : 90,
+          "length" : 278
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 123,
+          "length" : 2
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 134,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-no-basis-partof.json",
+      "size" : 2228,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 40,
+          "length" : 82
+        },
+        {
+          "activity" : "load",
+          "start" : 43,
+          "length" : 85
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 52,
+          "length" : 218
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 63,
+          "length" : 207
+        },
+        {
+          "activity" : "validate",
+          "start" : 69,
+          "length" : 55
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 70,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 76,
+          "length" : 122
+        },
+        {
+          "activity" : "generate2",
+          "start" : 90,
+          "length" : 298
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 123,
+          "length" : 1
         }
       ]
     },
@@ -162,38 +728,171 @@
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 27,
-          "length" : 16
+          "start" : 41,
+          "length" : 82
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 41,
+          "length" : 1
         },
         {
           "activity" : "load",
-          "start" : 27,
-          "length" : 28
+          "start" : 43,
+          "length" : 96
         },
         {
           "activity" : "generateSnapshots",
-          "start" : 28,
-          "length" : 51
+          "start" : 53,
+          "length" : 231
         },
         {
           "activity" : "generateNarratives",
-          "start" : 28,
-          "length" : 31
+          "start" : 64,
+          "length" : 215
         },
         {
           "activity" : "validate",
-          "start" : 29,
-          "length" : 40
+          "start" : 69,
+          "length" : 52
         },
         {
           "activity" : "generate1",
-          "start" : 30,
-          "length" : 121
+          "start" : 76,
+          "length" : 119
         },
         {
           "activity" : "generate2",
-          "start" : 34,
-          "length" : 320
+          "start" : 91,
+          "length" : 250
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 123,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-no-basis-virtual-service.json",
+      "size" : 6058,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 41,
+          "length" : 471
+        },
+        {
+          "activity" : "load",
+          "start" : 43,
+          "length" : 462
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 53,
+          "length" : 1220
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 64,
+          "length" : 1219
+        },
+        {
+          "activity" : "validate",
+          "start" : 69,
+          "length" : 335
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 70,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 76,
+          "length" : 587
+        },
+        {
+          "activity" : "generate2",
+          "start" : 91,
+          "length" : 762
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 123,
+          "length" : 6
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-hn-appointment-flag-code-vs.json",
+      "size" : 461,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 41,
+          "length" : 3
+        },
+        {
+          "activity" : "load",
+          "start" : 41,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 65,
+          "length" : 77
+        },
+        {
+          "activity" : "validate",
+          "start" : 65,
+          "length" : 14
+        },
+        {
+          "activity" : "generate1",
+          "start" : 77,
+          "length" : 20
+        },
+        {
+          "activity" : "generate2",
+          "start" : 92,
+          "length" : 6164
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-no-basis-virtual-service-type-vs.json",
+      "size" : 563,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 41,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 41,
+          "length" : 6
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 65,
+          "length" : 4
+        },
+        {
+          "activity" : "validate",
+          "start" : 65,
+          "length" : 393
+        },
+        {
+          "activity" : "generate1",
+          "start" : 77,
+          "length" : 22
+        },
+        {
+          "activity" : "generate2",
+          "start" : 98,
+          "length" : 65
         }
       ]
     }
