@@ -1,0 +1,6 @@
+Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+\fsh-generated\resources\ImplementationGuide-fhir.example.json	2877	-	0	0	0	0	0	0	4	102	0	0	0	0	0	0	0	0	0	0	284	98	0	0	1	0	0	0
+fsh-generated/resources/AppointmentResponse-PatientAppointmentResponseExample.json	631	4	0	0	0	0	0	0	0	16	0	0	0	0	0	0	0	0	0	0	31	31	0	0	0	0	0	0
+fsh-generated/resources/Patient-e70f0ba2-44d8-4f14-9c3a-ff4c6ead7473.json	209	0	0	0	0	0	0	0	0	16	0	0	0	0	0	0	0	0	0	0	16	16	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-no-basis-AppointmentResponse.json	2463	15	0	0	0	0	0	167	0	95	0	0	0	0	0	0	0	0	0	0	349	1667	0	0	0	6	0	0
+fsh-generated/resources/StructureDefinition-no-basis-shortnotice.json	1674	16	0	0	0	0	0	51	0	31	0	0	0	0	0	0	0	0	0	0	121	320	0	0	0	0	0	0

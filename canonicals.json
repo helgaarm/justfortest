@@ -1,0 +1,23 @@
+[
+  {
+    "id" : "fhir.example",
+    "type" : "ImplementationGuide",
+    "url" : "http://example.org/ImplementationGuide/fhir.example",
+    "version" : "0.1.0",
+    "name" : "NyTimelosingIG"
+  },
+  {
+    "id" : "no-basis-AppointmentResponse",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/no-basis-AppointmentResponse",
+    "version" : "0.1.0",
+    "name" : "NoBasisAppointmentResponse"
+  },
+  {
+    "id" : "no-basis-shortnotice",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/no-basis-shortnotice",
+    "version" : "0.1.0",
+    "name" : "NoBasisShortNotice"
+  }
+]

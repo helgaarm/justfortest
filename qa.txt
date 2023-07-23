@@ -1,0 +1,26 @@
+﻿NyTimelosingIG : Validation Results
+=========================================
+
+err = 1, warn = 5, info = 0
+IG Publisher Version: 1.3.23
+Generated Mon Jul 17 00:54:50 CEST 2023. FHIR version 4.0.1 for fhir.example#0.1.0 (canonical = http://example.org)
+ Build Errors : 1 / 5 / 0
+ C:\Users\arman\OneDrive\Documents\GitHub\hnFHIRTimer\NyTimelosingIG\fsh-generated\resources\AppointmentResponse-PatientAppointmentResponseExample : 1 / 0 / 1
+ C:\Users\arman\OneDrive\Documents\GitHub\hnFHIRTimer\NyTimelosingIG\fsh-generated\resources\ImplementationGuide-fhir.example : 0 / 0 / 1
+ C:\Users\arman\OneDrive\Documents\GitHub\hnFHIRTimer\NyTimelosingIG\fsh-generated\resources\Patient-e70f0ba2-44d8-4f14-9c3a-ff4c6ead7473 : 0 / 0 / 1
+ C:\Users\arman\OneDrive\Documents\GitHub\hnFHIRTimer\NyTimelosingIG\fsh-generated\resources\StructureDefinition-no-basis-AppointmentResponse : 0 / 0 / 1
+ C:\Users\arman\OneDrive\Documents\GitHub\hnFHIRTimer\NyTimelosingIG\fsh-generated\resources\StructureDefinition-no-basis-shortnotice : 0 / 0 / 1
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/e70f0ba2-44d8-4f14-9c3a-ff4c6ead7473.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: C:\Users\arman\OneDrive\Documents\GitHub\hnFHIRTimer\NyTimelosingIG\output\AppointmentResponse-PatientAppointmentResponseExample.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 620: The link 'Appointment/d6c523ec-b520-4221-a8d6-c1c58911ce7a' for "Appointment/d6c523ec-b520-4221-a8d6-c1c58911ce7a: MRI results discussion" cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated\resources\AppointmentResponse-PatientAppointmentResponseExample.json ==
+ERROR: AppointmentResponse/PatientAppointmentResponseExample: AppointmentResponse.appointment: Unable to resolve resource with reference 'Appointment/d6c523ec-b520-4221-a8d6-c1c58911ce7a'
+== fsh-generated\resources\ImplementationGuide-fhir.example.json ==
+== fsh-generated\resources\Patient-e70f0ba2-44d8-4f14-9c3a-ff4c6ead7473.json ==
+== fsh-generated\resources\StructureDefinition-no-basis-AppointmentResponse.json ==
+== fsh-generated\resources\StructureDefinition-no-basis-shortnotice.json ==
